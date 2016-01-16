@@ -1,7 +1,7 @@
 import os
 
 
-# Modify this file path.. Shouldn't be static
+# Modify this file path... Shouldn't be static
 file_path = '/Users/Mayor/Desktop/codeVilla/python-workout/resources/prank/'
 
 

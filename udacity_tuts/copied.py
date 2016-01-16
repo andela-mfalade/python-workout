@@ -81,16 +81,13 @@ class TurtleArtist(turtle.Turtle):
                 mod = length * i ** 0.9
                 mike.flower((0, mod), (18, 40))
                 mike.flower((0, mod), (-18, 40))
-
             self.pencolor((random(), random(), random()))
             self.incrememnt_level()
-            # self._len *= 0.2
             self._len = 10
             self.run_through_levels()
 
 
-window = turtle.Screen()
-
+screen = turtle.Screen()
 mike = TurtleArtist()
 mike.goto(0, 100)
 mike.pensize(1.1)
@@ -100,4 +97,4 @@ mike.make_stem()
 mike.pencolor('#FBE54E')
 mike.run_through_levels()
 
-window.exitonclick()
+screen.exitonclick()
